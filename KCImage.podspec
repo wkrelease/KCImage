@@ -13,9 +13,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
   s.social_media_url = 'https://twitter.com/aalvinv'
   s.ios.deployment_target = '8.0'
-  # s.resource_bundles = {
-  #   'dummy' => ['dummy/Assets/*.png']
-  # }
 
   s.public_header_files = 'Pod/KCImage/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
