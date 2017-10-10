@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://github.com/wkrelease'
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'Pod/KCImage/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 
