@@ -16,7 +16,4 @@
 
 + (UIImage *)imageWithSize:(CGSize)size drawBlock:(void (^)(CGContextRef context))drawBlock;
 
-
-- (void)image;
-
 @end
