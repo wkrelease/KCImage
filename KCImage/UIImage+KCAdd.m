@@ -14,6 +14,11 @@
 
 @implementation UIImage (KCAdd)
 
+- (void)image {
+    
+    
+}
+
 + (UIImage *)imageWithColor:(UIColor *)color {
     return [self imageWithColor:color size:CGSizeMake(1, 1)];
 }
