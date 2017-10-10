@@ -8,10 +8,13 @@ Pod::Spec.new do |s|
   s.author = { 'cocoakc' => '18501987683@163.com' }
   s.source = { :git => 'https://github.com/wkrelease/KCImage.git', :tag => '0.0.1' }
 
+  s.source_files = "KCImage/**/*.{h,m}"
+
+
   s.description = 'Blah Blah Blah BlahBlah BlahBlah BlahBlah BlahBlah Blah Blah Blah'      \
                   'Blah Blah'
   s.frameworks = 'UIKit', 'Foundation'
-  s.social_media_url = 'https://twitter.com/aalvinv'
+  s.social_media_url = 'https://github.com/wkrelease'
   s.ios.deployment_target = '8.0'
 
   s.public_header_files = 'Pod/KCImage/**/*.h'
